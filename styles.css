@@ -1,17 +1,19 @@
 body {
-    background-color: CornflowerBlue;
-    text-align: center;
+    background-color: rgb(218, 165, 165);
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
 }
 
   header {
-    text-align: center;
+    background-color: #5082e6;
+    color: rgb(255, 255, 255);
     padding-top: 20px;
+    padding-bottom: 170px;
+    position: sticky;
+    top: 0;
 }
 
   h1 {
-  color: rgb(255, 255, 255);
   text-align: center;
 }
   
@@ -41,6 +43,13 @@ ul {
 h3 {
   color: white;
   text-align: center;
+}
+
+.homeBar {
+  padding-top: 40px; 
+  padding-left: 20px; 
+  padding-bottom: 20px;
+  float: left;
 }
   
 .center {
