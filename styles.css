@@ -4,23 +4,23 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-  header {
-    background-color: #5082e6;
-    color: rgb(255, 255, 255);
-    padding-top: 20px;
-    padding-bottom: 170px;
-    position: sticky;
-    top: 0;
+header {
+  background-color: #5082e6;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  padding-bottom: 170px;
+  position: sticky;
+  top: 0;
 }
 
-  h1 {
+h1 {
   text-align: center;
+  color: white;
 }
   
 h2 {
   color: white;
-  text-align: center;
-  padding: 0px;
+  font-size: 35px;
 }
   
 p {
@@ -30,14 +30,13 @@ p {
   
 li {
   color: white;
-  text-align: center;
-  padding: 10px;
+  padding-left: 20px;
+  padding-top: 30px;
   font-size: 25px;
 }
   
 ul {
-  text-align: center;
-  padding: 0px;
+  padding-left: 22px;
 }
   
 h3 {
@@ -51,11 +50,36 @@ h3 {
   padding-bottom: 20px;
   float: left;
 }
+
+.topBackground {
+  float: left; 
+  padding-left: 20px;
+}
+
+.homeLeft {
+  float: left;
+  background-color: rgb(219, 119, 119);
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 200px;
+  font-size: 35px;
+}
+
+.homeRight{
+  padding-left: 1180px;
+  padding-top: 20px;
+  padding-right: 200px;
+  font-size: 35px;
+}
   
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+}
+
+.obamaPhoto {
+  padding-left: 470px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
   
 table {
@@ -72,6 +96,10 @@ td, th {
 border: 1px solid #000000;
 text-align: left;
 padding: 8px;
+}
+
+hr {
+  border: 2px solid rgb(52, 118, 218);
 }
 
 tr:nth-child(even) {
