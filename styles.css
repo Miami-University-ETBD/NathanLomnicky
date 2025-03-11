@@ -1,23 +1,25 @@
 body {
-    background-color: CornflowerBlue;
-    text-align: center;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(218, 165, 165);
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-  header {
-    text-align: center;
-}
-
-  h1 {
+header {
+  background-color: #5082e6;
   color: rgb(255, 255, 255);
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 170px;
+  position: sticky;
+  top: 0;
+}
+
+h1 { 
+  color: white;
 }
   
 h2 {
   color: white;
-  text-align: center;
-  padding: 0px;
+  font-size: 35px;
 }
   
 p {
@@ -27,27 +29,101 @@ p {
   
 li {
   color: white;
-  text-align: center;
-  padding: 10px;
+  padding-top: 30px;
   font-size: 25px;
+}
+
+.indexHomeList {
+  padding-left: 20px;
 }
   
 ul {
-  text-align: center;
-  padding: 0px;
+  padding-left: 22px;
 }
   
 h3 {
   color: white;
   text-align: center;
 }
-  
+
+.homeBar {
+  padding-top: 40px; 
+  padding-left: 20px; 
+  padding-bottom: 20px;
+  float: left;
+}
+
+.topBackground {
+  float: left; 
+  padding-left: 20px;
+}
+
+.homeLeft {
+  float: left;
+  background-color: rgb(219, 119, 119);
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 200px;
+  font-size: 35px;
+}
+
+.homeRight{
+  text-align: center;
+  padding-left: 1180px;
+  padding-top: 20px;
+  padding-right: 200px;
+  font-size: 35px;
+}
+
+.whatLeft {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 200px;
+  font-size: 35px;
+}
+
+.whatLeftSide {
+  display: inline;
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+  background-color: rgb(202, 127, 127);
+}
+
+.whatRight {
+  text-align: center;
+  padding-left: 1000px;
+  padding-top: 20px;
+  padding-right: 100px;
+  font-size: 35px;
+}
+
+.fSPhoto {
+  padding-left: 370px;
+}
+
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+}
+
+.obamaPhoto {
+  padding-left: 470px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.upcomingPhoto {
+  padding-left: 720px;
+  width: 500px;
 }
   
+.upcoming {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 table {
   font-size: 20px;
   text-align: center;
@@ -64,11 +140,38 @@ text-align: left;
 padding: 8px;
 }
 
+hr {
+  border: 2px solid rgb(52, 118, 218);
+}
+
 tr:nth-child(even) {
 background-color: #b2caf6;
 }
 
 footer {
+text-align: center;
 color: white;
-font-size: 15px;
+background-color: #000000;
+font-size: 25px;
+padding-top: 20px;
+}
+
+.noBullets {
+  list-style-type: none;
+}
+
+.footerList {
+  background-color: #000000;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.paddingB {
+  padding-bottom: 156px;
+  text-align: center;
+}
+
+.footerImage {
+  padding-bottom: 20px;
+  width: 200px;
 }
