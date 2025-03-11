@@ -175,3 +175,14 @@ padding-top: 20px;
   padding-bottom: 20px;
   width: 200px;
 }
+
+input {
+  margin: auto;
+  display: block;
+}
+
+button {
+  margin: auto;
+  display: block;
+  margin-top: 0px;
+}
