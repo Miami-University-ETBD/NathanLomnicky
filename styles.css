@@ -53,6 +53,18 @@ h3 {
   float: left;
 }
 
+.headNav {
+  color: white;
+  padding-top: 40px; 
+  padding-left: 140px; 
+  padding-bottom: 20px;
+  float: left;
+}
+
+.whiteFont {
+  color: white;
+}
+
 .topBackground {
   float: left; 
   padding-left: 20px;
@@ -166,6 +178,11 @@ padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.paddingA {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 .paddingB {
   padding-bottom: 156px;
   text-align: center;
@@ -174,4 +191,15 @@ padding-top: 20px;
 .footerImage {
   padding-bottom: 20px;
   width: 200px;
+}
+
+input {
+  margin: auto;
+  display: block;
+}
+
+button {
+  margin: auto;
+  display: block;
+  margin-top: 0px;
 }
