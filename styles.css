@@ -1,11 +1,22 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --pink1: #d57b80;
+  --pink2: #E55257;
+  --blue1: #b2caf6;
+  --blue2: #83aaf1;
+  --blue3: #5082e6;
+  --blue4: rgb(52, 118, 218);
+}
+
 body {
-  background-color: rgb(218, 165, 165);
+  background-color: var(--pink1);
   margin: auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
-  background-color: #5082e6;
+  background-color: var(--blue3);
   color: rgb(255, 255, 255);
   padding-top: 20px;
   padding-bottom: 170px;
@@ -13,22 +24,22 @@ header {
   top: 0;
 }
 
-h1 { 
-  color: white;
+h1 {
+  color: var(--white);
 }
-  
+
 h2 {
-  color: white;
+  color: var(--white);
   font-size: 35px;
 }
-  
+
 p {
-  color: white;
+  color: var(--white);
   text-align: center;
 }
-  
+
 li {
-  color: white;
+  color: var(--white);
   padding-top: 30px;
   font-size: 25px;
 }
@@ -36,50 +47,50 @@ li {
 .indexHomeList {
   padding-left: 20px;
 }
-  
+
 ul {
   padding-left: 22px;
 }
-  
+
 h3 {
-  color: white;
+  color: var(--white);
   text-align: center;
 }
 
 .homeBar {
-  padding-top: 40px; 
-  padding-left: 20px; 
+  padding-top: 40px;
+  padding-left: 20px;
   padding-bottom: 20px;
   float: left;
 }
 
 .headNav {
-  color: white;
-  padding-top: 40px; 
-  padding-left: 140px; 
+  color: var(--white);
+  padding-top: 40px;
+  padding-left: 140px;
   padding-bottom: 20px;
   float: left;
 }
 
 .whiteFont {
-  color: white;
+  color: var(--white);
 }
 
 .topBackground {
-  float: left; 
+  float: left;
   padding-left: 20px;
 }
 
 .homeLeft {
   float: left;
-  background-color: rgb(219, 119, 119);
+  background-color: var(--pink2);
   padding-top: 20px;
   padding-left: 170px;
   padding-right: 200px;
   font-size: 35px;
 }
 
-.homeRight{
+.homeRight {
   text-align: center;
   padding-left: 1180px;
   padding-top: 20px;
@@ -100,7 +111,7 @@ h3 {
   width: 50%;
   float: left;
   padding-right: 10px;
-  background-color: rgb(202, 127, 127);
+  background-color: var(--pink1);
 }
 
 .whatRight {
@@ -129,7 +140,7 @@ h3 {
   padding-left: 720px;
   width: 500px;
 }
-  
+
 .upcoming {
   text-align: center;
   padding-left: 30px;
@@ -140,32 +151,37 @@ table {
   font-size: 20px;
   text-align: center;
   border-collapse: collapse;
-  background-color: #83aaf1;
+  background-color: var(--blue2);
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-td, th {
-border: 1px solid #000000;
-text-align: left;
-padding: 8px;
+td,
+th {
+  border: 1px solid var(--black);
+  text-align: left;
+  padding: 8px;
 }
 
 hr {
-  border: 2px solid rgb(52, 118, 218);
+  border: 2px solid var(--blue4);
 }
 
 tr:nth-child(even) {
-background-color: #b2caf6;
+  background-color: var(--blue1);
 }
 
 footer {
-text-align: center;
-color: white;
-background-color: #000000;
-font-size: 25px;
-padding-top: 20px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--black);
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+footer a {
+  color: var(--blue3)
 }
 
 .noBullets {
@@ -173,7 +189,7 @@ padding-top: 20px;
 }
 
 .footerList {
-  background-color: #000000;
+  background-color: var(--black);
   list-style-type: none;
   padding-bottom: 20px;
 }
@@ -191,6 +207,12 @@ padding-top: 20px;
 .footerImage {
   padding-bottom: 20px;
   width: 200px;
+}
+
+form label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
 }
 
 input {
