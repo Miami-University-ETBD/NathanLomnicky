@@ -11,20 +11,10 @@ document.getElementById("ideaSubmit").onclick = function(){
     console.log(idea);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
-  });
-
  // Initialize modal
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.modal');
     var instances = M.Modal.init(elems);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
 });
 
 // Function to display selected pastry
