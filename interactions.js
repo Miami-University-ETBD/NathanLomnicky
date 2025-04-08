@@ -11,6 +11,10 @@ document.getElementById("ideaSubmit").onclick = function(){
     console.log(idea);
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, options);
+  });
 
  // Initialize modal
 document.addEventListener('DOMContentLoaded', function() {
