@@ -18,7 +18,7 @@ body {
 header {
   background-color: var(--blue3);
   color: rgb(255, 255, 255);
-  padding: 20px 20px 20px 0;
+  padding: 10px;
   position: sticky;
   top: 0;
   display: flex;
@@ -77,8 +77,8 @@ h3 {
 .headNav {
   color: var(--white);
   padding-top: 40px;
-  padding-left: 140px;
-  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-bottom: 10px;
   float: left;
 }
 
